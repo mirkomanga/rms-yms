@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>{% block title %} Work In Progress{% endblock %}</h1>
+        <hr class="stylish"/>
+<div class="footer col d-flex align-items-center justify-content-center">
+        <img class="rounded  mx-auto d-block" src="{{ url_for('static', filename= 'res/workinprogress.png') }}" title="Stiamo lavorando per voi...">
+	</div>
+</div>
+{% endblock %}
