@@ -8,7 +8,7 @@ app.config['SECRET_KEY'] = '21cb588d69eae6e170f4eb9c914601d2'
 
 @app.route('/')
 def hello():
-    return "Hello World! Dio mummia!"
+    return "Hello World!"
 
 @app.route('/tbd')
 def tbd():
