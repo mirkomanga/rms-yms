@@ -17,17 +17,17 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
 		<img class="logo" src="{{ url_for('static', filename= 'res/gnv.png') }}" width="256" height="70" />
-        <h1><a class="navbar-brand" href="{{ url_for('index')}}"> REengineer BI - Catalog Tool&nbsp;&nbsp;</a></h1>
+        <h1><a class="navbar-brand" href="#"> RMS Demo Console</a></h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
 	    <li class="nav-item">
-                <a class="nav-link" id="rebiform" href="{{ url_for('biCatalog')}}">BI Catalog</a>
+                <a class="nav-link" id="rebiform" href="#">BI Catalog</a>
             </li>
 	    <li class="nav-item">
-                <a class="nav-link" id="dataform" href="{{ url_for('datacat')}}">Data Catalog</a>
+                <a class="nav-link" id="dataform" href="#">Data Catalog</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" id="about">Info</a>
@@ -42,11 +42,11 @@
         {% block content %} {% endblock %}
     <hr class="stylish"/>
     <div class="footer col d-flex align-items-center justify-content-center">
-	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'img/html-5-logo.png') }}" width="48px" height="48px" title="HTML 5">
-	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'img/bootstrap-4-logo.png') }}" width="48px" height="48px" title="Bootstrap 4 CSS">
-	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'img/jquery-logo.png') }}" width="48px" height="48px" title="jQuery Engine">
-	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'img/python-logo.png') }}" width="48px" height="48px" title="Python 3.6">
-	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'img/postgresql-logo.png') }}" width="48px" height="48px" title="Postgresql 11">
+	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'res/html-5-logo.png') }}" width="48px" height="48px" title="HTML 5">
+	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'res/bootstrap-4-logo.png') }}" width="48px" height="48px" title="Bootstrap 4 CSS">
+	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'res/jquery-logo.png') }}" width="48px" height="48px" title="jQuery Engine">
+	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'res/python-logo.png') }}" width="48px" height="48px" title="Python 3.6">
+	<img class="logo rounded  mx-auto d-block" src="{{ url_for('static', filename= 'res/postgresql-logo.png') }}" width="48px" height="48px" title="Postgresql 11">
     </div>
 	<div class="modal fade" id="info" role="dialog">
     <div class="modal-dialog">
