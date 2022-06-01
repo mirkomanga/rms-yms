@@ -64,7 +64,7 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header text-center">
-<img class="logo" src="{{ url_for('static', filename= 'res/gnv.png') }}" width="128" height="35">
+<img class="logo" src="{{ url_for('static', filename= 'res/gnv.png') }}" width="192" height="52">
           <h4 class="modal-title text-center" style="margin-left: 20px;  margin-top: 5px;">RMS Pricing Console</h4>
           <button type="button" class="close" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
         </div>

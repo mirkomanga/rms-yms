@@ -28,19 +28,19 @@ body {
 }
 
 .navbar-light {
-	/* margin-left: 6px; */
+	margin-left: 6px;
 	/* color: #2B5BA9 !important; */
 
 }
 
 .navbar-brand{
-	/* margin-left: 6px; */
+	margin-left: 6px;
 	font-size: 2em;
 	/* color: #2B5BA9 !important; */
 }
 
 .top-header {
-	/* margin-left: 6px; */
+	margin-left: 6px;
 	font-size: 2em;
 	color: #2B5BA9 !important;
 	text-align: center;
